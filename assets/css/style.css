@@ -43,3 +43,23 @@
   color: #000;
   text-decoration-color: #f72210;
 }
+
+.opinion article {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.opinion-title {
+  color: #000;
+  text-decoration: none;
+}
+
+.opinion-title:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.fsz-14 {
+  font-size: calc(14rem / 16);
+}
