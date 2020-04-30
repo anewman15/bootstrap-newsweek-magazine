@@ -1,0 +1,1 @@
+# bootstrap-newsweek-magazine
