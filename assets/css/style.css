@@ -2,3 +2,44 @@
   height: auto;
   border: 1px solid #000;
 } */
+
+.roboto {
+  font-family: "Roboto Condensed", Roboto, sans-serif;
+}
+
+.helvetica {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.lora {
+  font-family: Lora, serif;
+}
+
+.color-black {
+  color: #000;
+}
+
+.img-holder {
+  position: relative;
+}
+
+.category-label {
+  position: absolute;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f72210;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 1);
+  bottom: 0;
+}
+
+.title-link {
+  color: #000;
+}
+
+.title-link:hover {
+  color: #000;
+  text-decoration-color: #f72210;
+}
