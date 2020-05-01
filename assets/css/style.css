@@ -63,3 +63,26 @@
 .fsz-15 {
   font-size: calc(15rem / 16);
 }
+
+.width-95 {
+  width: 95px;
+  height: 95px;
+}
+
+.width-63 {
+  width: 63px;
+}
+
+.byline::before {
+  content: "";
+  display: block;
+  background-color: #fff;
+  height: 4px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  z-index: -999;
+}
