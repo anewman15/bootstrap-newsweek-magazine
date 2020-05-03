@@ -48,6 +48,10 @@
   text-decoration-color: #f72210;
 }
 
+.height {
+  height: 100vh;
+}
+
 .opinion article {
   display: flex;
   justify-content: flex-start;
