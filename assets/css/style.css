@@ -15,6 +15,10 @@
   font-family: Lora, serif;
 }
 
+.app-wrapper {
+  width: 99% !important;
+}
+
 .color-black {
   color: #000;
 }
