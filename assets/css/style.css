@@ -27,6 +27,10 @@
   color: #f72210;
 }
 
+.bg-newsweek {
+  background: #f72210;
+}
+
 .img-holder {
   position: relative;
 }
@@ -145,4 +149,10 @@
   color: #f72210;
   font-weight: bold;
   padding: 5px;
+}
+
+.position-relative {
+  position: relative;
+  left: -95px;
+  top: 15px;
 }
