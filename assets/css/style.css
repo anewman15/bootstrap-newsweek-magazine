@@ -62,7 +62,7 @@
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 0;
 }
 
 .opinion article {
@@ -151,8 +151,12 @@
   padding: 5px;
 }
 
-.position-relative {
-  position: relative;
-  left: -95px;
-  top: 15px;
+.move-img {
+  top: -20px;
+  left: -30px;
+  z-index: -999;
+}
+
+.height-inherit {
+  height: inherit;
 }
