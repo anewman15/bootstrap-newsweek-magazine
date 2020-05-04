@@ -123,3 +123,17 @@
   background-position: 50% 50%;
   background-color: #f72210;
 }
+
+.label-type3 {
+  background-color: #f72210;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.label-type4 {
+  background-color: #fff;
+  color: #f72210;
+  font-weight: bold;
+  padding: 5px;
+}
