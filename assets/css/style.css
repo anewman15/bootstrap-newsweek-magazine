@@ -3,6 +3,10 @@
   border: 1px solid #000;
 } */
 
+img {
+  object-fit: cover;
+}
+
 .roboto {
   font-family: "Roboto Condensed", Roboto, sans-serif;
 }
@@ -152,9 +156,8 @@
 }
 
 .move-img {
-  top: -20px;
-  left: -30px;
-  z-index: -999;
+  top: 20px;
+  left: 30px;
 }
 
 .height-inherit {
