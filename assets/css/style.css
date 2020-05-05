@@ -163,3 +163,20 @@ img {
 .height-inherit {
   height: inherit;
 }
+
+.newsweek-svg {
+  width: 236px;
+  fill: #f72210;
+}
+
+.fab {
+  font-size: 1.8rem;
+}
+
+.footer-links {
+  color: gray;
+}
+
+.footer-links a {
+  line-height: 2;
+}
