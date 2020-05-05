@@ -85,6 +85,10 @@ img {
   text-decoration: none;
 }
 
+.fsz-12 {
+  font-size: calc(12rem / 16);
+}
+
 .fsz-15 {
   font-size: calc(15rem / 16);
 }
@@ -173,10 +177,23 @@ img {
   font-size: 1.8rem;
 }
 
+.edition-links,
 .footer-links {
   color: gray;
 }
 
+.edition-links a {
+  text-decoration: none;
+  color: gray;
+}
+
 .footer-links a {
+  text-decoration: none;
+  color: gray;
   line-height: 2;
+}
+
+.edition-links a:hover,
+.footer-links a:hover {
+  color: #000;
 }
