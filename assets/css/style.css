@@ -19,8 +19,13 @@ img {
   font-family: Lora, serif;
 }
 
+.bg-red {
+  background-color: #f72210;
+}
+
 .app-wrapper {
   width: 99% !important;
+  max-width: 1310px;
 }
 
 .color-black {
