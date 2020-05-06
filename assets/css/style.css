@@ -19,8 +19,18 @@ img {
   font-family: Lora, serif;
 }
 
-.bg-red {
-  background-color: #f72210;
+.dropdown-toggle::after {
+  content: none;
+}
+
+.fsz-20 {
+  font-size: 28px;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  top: 52px;
+  left: -128px;
 }
 
 .app-wrapper {
