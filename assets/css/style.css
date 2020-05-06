@@ -30,7 +30,7 @@ img {
 .dropdown-menu {
   border-radius: 0;
   top: 52px;
-  left: -128px;
+  left: -328px;
 }
 
 .app-wrapper {
@@ -40,6 +40,10 @@ img {
 
 .color-black {
   color: #000;
+}
+
+.bg-black {
+  background-color: #000;
 }
 
 .color-newsweek {
