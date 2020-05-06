@@ -1,7 +1,6 @@
-/* body * {
-  height: auto;
-  border: 1px solid #000;
-} */
+html {
+  min-width: 320px;
+}
 
 img {
   object-fit: cover;
@@ -38,6 +37,14 @@ img {
   color: #fff;
 }
 
+.temperature {
+  display: none;
+}
+
+.location {
+  display: none;
+}
+
 .width-150 {
   max-width: 150px !important;
 }
@@ -48,7 +55,6 @@ img {
 }
 
 .app-wrapper {
-  width: 99% !important;
   max-width: 1310px;
 }
 
@@ -231,8 +237,20 @@ img {
   color: #000;
 }
 
+@media screen and (min-width: 576px) {
+  .temperature {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .location {
+    display: inline;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .top-height {
-    top: 136px;
+    top: 156px;
   }
 }
