@@ -30,7 +30,12 @@ img {
 .dropdown-menu {
   border-radius: 0;
   top: 52px;
-  left: -328px;
+  left: -206px;
+}
+
+.dropdown-item:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .app-wrapper {
