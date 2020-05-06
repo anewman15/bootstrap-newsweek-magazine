@@ -90,6 +90,19 @@ img {
   bottom: 0;
 }
 
+.article-label {
+  position: absolute;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 12px;
+  font-weight: normal;
+  background-color: #c2d4d7;
+  bottom: 0;
+}
+
 .title-link {
   color: #000;
 }
