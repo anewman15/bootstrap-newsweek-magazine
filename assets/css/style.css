@@ -112,6 +112,15 @@ img {
   text-decoration-color: #f72210;
 }
 
+.heroes-title {
+  color: #000;
+}
+
+.heroes-title:hover {
+  text-decoration: none;
+  color: #000;
+}
+
 .height {
   height: 100vh;
   overflow-y: scroll;
