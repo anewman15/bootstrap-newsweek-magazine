@@ -38,6 +38,10 @@ img {
   color: #fff;
 }
 
+.form-inline {
+  vertical-align: middle;
+}
+
 .app-wrapper {
   width: 99% !important;
   max-width: 1310px;
