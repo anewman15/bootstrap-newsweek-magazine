@@ -38,8 +38,13 @@ img {
   color: #fff;
 }
 
-.form-inline {
-  vertical-align: middle;
+.width-150 {
+  max-width: 150px !important;
+}
+
+.top-height {
+  position: relative;
+  top: 62px;
 }
 
 .app-wrapper {
@@ -224,4 +229,10 @@ img {
 .edition-links a:hover,
 .footer-links a:hover {
   color: #000;
+}
+
+@media screen and (min-width: 992px) {
+  .top-height {
+    top: 136px;
+  }
 }
