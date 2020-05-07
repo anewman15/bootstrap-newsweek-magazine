@@ -213,6 +213,11 @@ img {
   font-weight: bold;
 }
 
+.signup {
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+}
+
 .small-logo {
   width: 29px;
   height: 28px;
@@ -235,6 +240,14 @@ img {
   color: #f72210;
   font-weight: bold;
   padding: 5px;
+}
+
+.subscribe {
+  background-color: #f4f5f6;
+}
+
+.newsletter {
+  border: 1px solid #f4f5f6;
 }
 
 .move-img {
