@@ -2,26 +2,27 @@
 
 This is a client side clone of ![The Newsweek Magazine](https://www.newsweek.com/)
 
-![screenshot](https://github.com/anewman15/backgrounds-and-gradients/blob/apple-clone/images/app-screenshot.png)
+![screenshot](./assets/images/app-screenshot.png)
 
 ## Built With
 
-- HTML,
-- CSS,
-- VS Code
+- HTML5,
+- CSS3,
+- VS Code,
+- Twitter Bootstrap,
 - Chrome developer tools
 
 ## Live Demo
 
-https://rawcdn.githack.com/anewman15/bootstrap-newsweek-magazine/c7f26e06330649b985de9dea54645ca8ed4ea687/index.html
+![Live Demo Link](https://rawcdn.githack.com/anewman15/bootstrap-newsweek-magazine/c7f26e06330649b985de9dea54645ca8ed4ea687/index.html)
 
 ## Authors
 
 👤 **Abdullah Numan**
 
-- Github:   https://github.com/anewman15
-- Twitter:  https://twitter.com/aanuman15
-- Linkedin: https://www.linkedin.com/in/aanuman15/
+- Github: [@anewman15](https://github.com/anewman15)
+- Twitter: [@aanuman15](https://twitter.com/aanuman15)
+- Linkedin: [aanuman15](https://www.linkedin.com/in/aanuman15/)
 
 ## 🤝 Contributing
 
