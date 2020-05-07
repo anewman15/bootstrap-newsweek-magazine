@@ -18,6 +18,23 @@ img {
   font-family: Lora, serif;
 }
 
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-btn {
+  color: #f72210;
+}
+
+.nav-btn:hover {
+  color: #f72210;
+}
+
 .dropdown-toggle::after {
   content: none;
 }
