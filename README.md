@@ -1,6 +1,6 @@
-# Backgrounds And Gradients
+# Bootstrap Newsweek Magazine Clone
 
-This is a client side clone of ![The Newsweek Magazine](https://www.newsweek.com/)
+This is a client side clone of [The Newsweek Magazine](https://www.newsweek.com/)
 
 ![screenshot](./assets/images/app-screenshot.png)
 
@@ -14,7 +14,7 @@ This is a client side clone of ![The Newsweek Magazine](https://www.newsweek.com
 
 ## Live Demo
 
-![Live Demo Link](https://rawcdn.githack.com/anewman15/bootstrap-newsweek-magazine/c7f26e06330649b985de9dea54645ca8ed4ea687/index.html)
+[Live Demo Link](https://rawcdn.githack.com/anewman15/bootstrap-newsweek-magazine/c7f26e06330649b985de9dea54645ca8ed4ea687/index.html)
 
 ## Authors
 
