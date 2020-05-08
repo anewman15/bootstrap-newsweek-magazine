@@ -1,4 +1,303 @@
-body * {
-  height: 400px;
+html {
+  min-width: 320px;
+}
+
+img {
+  object-fit: cover;
+}
+
+.roboto {
+  font-family: "Roboto Condensed", Roboto, sans-serif;
+}
+
+.helvetica {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.lora {
+  font-family: Lora, serif;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-btn {
+  color: #f72210;
+}
+
+.nav-btn:hover {
+  color: #f72210;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.fsz-20 {
+  font-size: 28px;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  top: 52px;
+  left: -206px;
+}
+
+.dropdown-item:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.temperature {
+  display: none;
+}
+
+.location {
+  display: none;
+}
+
+.width-150 {
+  max-width: 150px !important;
+}
+
+.top-height {
+  position: relative;
+  top: 62px;
+}
+
+.app-wrapper {
+  max-width: 1310px;
+}
+
+.color-black {
+  color: #000;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.color-newsweek {
+  color: #f72210;
+}
+
+.bg-newsweek {
+  background: #f72210;
+}
+
+.img-holder {
+  position: relative;
+}
+
+.category-label {
+  position: absolute;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f72210;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.8);
+  bottom: 0;
+}
+
+.article-label {
+  position: absolute;
+  padding: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 12px;
+  font-weight: normal;
+  background-color: #c2d4d7;
+  bottom: 3px;
+}
+
+.title-link {
+  color: #000;
+}
+
+.title-link:hover {
+  color: #000;
+  text-decoration-color: #f72210;
+}
+
+.heroes-title {
+  color: #000;
+}
+
+.heroes-title:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.height {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.opinion article {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.opinion-title {
+  color: #000;
+  text-decoration: none;
+}
+
+.opinion-title:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.fsz-12 {
+  font-size: calc(12rem / 16);
+}
+
+.fsz-15 {
+  font-size: calc(15rem / 16);
+}
+
+.border-thick {
+  border-width: 4px !important;
+}
+
+.width-95 {
+  width: 95px;
+  height: 95px;
+}
+
+.width-63 {
+  width: 63px;
+}
+
+.byline::before {
+  content: "";
+  display: block;
+  background-color: #fff;
+  height: 4px;
+  position: absolute;
+  top: 12px;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  z-index: -999;
+}
+
+.versus {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 14px auto 18px auto;
+  background-color: #000;
+  color: #d6d6d6;
+  font-size: 14px;
   border: 1px solid #000;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.signup {
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+}
+
+.small-logo {
+  width: 29px;
+  height: 28px;
+  margin-right: 10px;
+  background: url(https://g.newsweek.com/www/images/logo-n1.svg) no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-color: #f72210;
+}
+
+.label-type3 {
+  background-color: #f72210;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.label-type4 {
+  background-color: #fff;
+  color: #f72210;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.subscribe {
+  background-color: #f4f5f6;
+}
+
+.newsletter {
+  border: 1px solid #f4f5f6;
+}
+
+.move-img {
+  top: 20px;
+  left: 30px;
+}
+
+.height-inherit {
+  height: inherit;
+}
+
+.fab {
+  font-size: 1.8rem;
+}
+
+.edition-links,
+.footer-links {
+  color: gray;
+}
+
+.edition-links a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: gray;
+  line-height: 2;
+}
+
+.edition-links a:hover,
+.footer-links a:hover {
+  color: #000;
+}
+
+@media screen and (min-width: 576px) {
+  .temperature {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .location {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .top-height {
+    top: 156px;
+  }
 }
